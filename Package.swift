@@ -5,6 +5,7 @@ let package = Package(
     name: "web3.swift",
     platforms: [
         .iOS(SupportedPlatform.IOSVersion.v13),
+        .tvOS(SupportedPlatform.TVOSVersion.v13),
         .macOS(SupportedPlatform.MacOSVersion.v11)
     ],
     products: [
